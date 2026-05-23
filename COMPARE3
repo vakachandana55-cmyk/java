@@ -1,0 +1,13 @@
+package jaggesarray;
+
+public class COMPRE3 {
+
+	public static void main(String[] args) {
+		String s1="SACHIN";
+		String s2="SACHIN";
+		int n=s1.compareTo(s2);
+		System.out.println(n);
+		
+	}
+
+}
