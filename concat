@@ -1,0 +1,13 @@
+package jaggesarray;
+
+public class concatation1 {
+	public static void main(String[] args)
+	{
+		String s1="tap";
+		System.out.println(s1);
+		String s2=s1.concat("academy");
+		System.out.println(s2);
+	}
+	
+
+}
