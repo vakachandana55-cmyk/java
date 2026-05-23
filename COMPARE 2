@@ -1,0 +1,15 @@
+package jaggesarray;
+
+public class compare2 {
+	public static void main(String[] args)
+	{
+		String s1="sACHIN";
+		String s2="SAURAV";
+		int n=s1.compareTo(s2);
+		System.out.println(n);
+		
+		
+	}
+
+
+}
