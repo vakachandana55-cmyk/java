@@ -1,0 +1,17 @@
+
+class calculator {
+    int c;
+    int add(int a,int b)
+    {
+        c=a+b;
+        return c;
+    }
+    public static void main(String []args)
+    {
+        calculator cal=new calculator();
+        int num1=100;
+        int num2=100;
+       int res =cal.add(num1,num2);
+        System.out.println(res);
+    }
+    }
