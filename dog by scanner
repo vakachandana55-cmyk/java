@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class dog{
+    String breed;
+
+ public static void main(String[] args)
+    {
+        Scanner scan=new Scanner(System.in);
+        dog maxy=new dog();
+        dog kia=new dog();
+        dog[]a=new dog[2];
+        a[0]=maxy;
+        a[1]=kia;
+        System.out.println("enter the name of dog");
+        a[0].breed=scan.next();
+        System.out.println("enter the name of dog");
+        a[1].breed=scan.next();
+        System.out.println(a[0].breed);
+         System.out.println(a[1].breed);
+        
+    }
+}
