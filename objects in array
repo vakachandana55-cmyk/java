@@ -1,0 +1,16 @@
+class main {
+    String breed;
+ public static void main(String[] args)
+    {
+        main maxy=new main();
+        main kia=new main();
+        main[]a=new main[2];
+        a[0]=maxy;
+        a[1]=kia;
+        a[0].breed="golden retriver";
+        a[1].breed="lab";
+        System.out.println(a[0].breed);
+        System.out.println(a[1].breed);
+        
+    }
+}
