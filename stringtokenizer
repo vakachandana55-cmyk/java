@@ -1,0 +1,12 @@
+import java.util.StringTokenizer;
+
+class Main {
+    public static void main(String[] args) {
+
+        StringTokenizer st =
+                new StringTokenizer("java python sQl ai");
+
+        System.out.println(st.hasMoreTokens());
+        System.out.println(st.nextToken());
+    }
+}
