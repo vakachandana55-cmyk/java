@@ -1,0 +1,21 @@
+class Main {
+    public static void main(String[] args) {
+        StringBuffer st=new StringBuffer();
+         System.out.println(st.capacity());
+         st.append("jameslosing");
+          System.out.println(st.length());
+           System.out.println(st.capacity());
+           System.out.println(st);
+           st.append("abcdefg");
+           System.out.println(st.length());
+           System.out.println(st.capacity());
+           System.out.println(st);
+           st.trimToSize();
+           System.out.println(st.length());
+           System.out.println(st.capacity());
+           
+           
+        
+        
+    }
+}
